@@ -1,0 +1,60 @@
+.root {
+  width: 860px;
+  height: 560px;
+  display: flex;
+  background-color: var(--light-tan);
+
+
+  @media (max-width: 960px) {
+    flex-direction: column;
+    max-width: 375px;
+    height: auto;
+  }
+
+  &__bg {
+    display: grid;
+    grid-template-columns: 140px;
+
+    div {
+      background-size: 100%, 100%;
+    }
+
+    @media (max-width: 960px) {
+      &:first-child {
+        display: none;
+      }
+      overflow: hidden;
+      justify-content: center;
+      gap: 10px;
+      grid-template-columns: repeat(3, 120px);
+      grid-auto-rows: 120px;
+    }
+  }
+
+  &__content {
+    padding: 83px 80px;
+    flex-grow: 1;
+    position: relative;
+    @media (max-width: 960px) {
+      padding: 65px 20px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 30px;
+  }
+
+  &__close {
+    position: absolute;
+    top: 40px;
+    right: 80px;
+    @media (max-width: 960px) {
+      top: 20px;
+      right: 20px;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

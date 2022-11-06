@@ -1,0 +1,10 @@
+.timeline_block {
+  &__container {
+    margin-bottom: var(--bottom-offset);
+    max-width: 903px;
+  }
+
+  &__timeline {
+    margin-top: 96px;
+  }
+}

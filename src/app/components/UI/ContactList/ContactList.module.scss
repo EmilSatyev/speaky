@@ -1,0 +1,24 @@
+.contactList {
+  &__title {
+    margin-bottom: 18px;
+
+    @media (max-width: 1130px){
+      margin-bottom: 12px;
+    }
+  }
+  &__list {
+    max-width: 192px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    @media (max-width: 1130px){
+      gap: 15px;
+    }
+  }
+  &__item {
+    line-height: 26px;
+    @media (max-width: 1130px){
+      line-height: 22px;
+    }
+  }
+}

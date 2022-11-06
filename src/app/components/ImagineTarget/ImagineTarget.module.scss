@@ -1,0 +1,46 @@
+.root {
+  &__container {
+    margin-bottom: var(--bottom-offset);
+  }
+
+  &__wrapper {
+    margin: 0 auto;
+    max-width: 1046px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    & > * {
+      flex: 1;
+    }
+    @media (max-width: 765px) {
+      flex-direction: column;
+    }
+  }
+
+  &__image {
+    background-image: url("../../../../public/images/imagine-target.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 446px;
+    height: 338px;
+
+    @media (max-width: 765px) {
+      flex-basis: auto;
+    }
+    @media (max-width: 560px) {
+      width: 100%;
+      height: 69vw;
+    }
+
+  }
+
+
+  &__title_wrap {
+    margin-bottom: 30px;
+  }
+
+  &__descr {
+    max-width: 450px;
+  }
+}

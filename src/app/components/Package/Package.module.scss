@@ -1,0 +1,13 @@
+.root {
+  &__container {
+    margin-bottom: var(--bottom-offset);
+    @media (max-width: 960px) {
+      padding: 0;
+    }
+  }
+
+  &__title_wrap {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+}

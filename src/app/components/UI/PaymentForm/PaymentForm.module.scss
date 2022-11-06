@@ -1,0 +1,77 @@
+.root {
+  fieldset {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 14px;
+    margin-bottom: 24px;
+    @media (max-width: 960px) {
+      row-gap: 12px;
+      margin-bottom: 20px;
+
+      button {
+        text-align: center;
+      }
+
+    }
+  }
+
+  input {
+    width: 100%;
+    background: var(--white);
+    border: 1px solid var(--tan);
+    border-radius: 10px;
+    padding: 11px 20px;
+    font-size: 16px;
+    line-height: 26px;
+
+    &::placeholder {
+      font-family: var(--font-family);
+    }
+
+    &:focus {
+      outline: 1px solid var(--tan);
+      box-shadow: 0 2px 4px var(--tan);
+    }
+
+    &:nth-child(3) {
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+
+    @media (max-width: 960px) {
+      padding: 10px 16px;
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+
+  &__note {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 30px;
+  }
+
+  &__price {
+    position: relative;
+    display: block;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    input {
+      padding-right: 40px;
+    }
+
+    &::before {
+      content: "₽ ";
+      position: absolute;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 100%;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 20px;
+    }
+  }
+}
