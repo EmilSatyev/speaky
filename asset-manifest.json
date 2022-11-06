@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/speaky/static/css/main.2f15ceaa.css",
+    "main.js": "/speaky/static/js/main.bfcd4f79.js",
+    "static/media/imagine-target.jpg": "/speaky/static/media/imagine-target.9ef961ed647809255cd0.jpg",
+    "static/media/motivation.png": "/speaky/static/media/motivation.b89ea5937d330fb3bec0.png",
+    "static/media/what_is_lang.jpg": "/speaky/static/media/what_is_lang.f9f2a45debbe160d89d3.jpg",
+    "static/media/Raleway-Regular.woff2": "/speaky/static/media/Raleway-Regular.8ef2f50ea57d9d13e2f7.woff2",
+    "static/media/Raleway-Medium.woff2": "/speaky/static/media/Raleway-Medium.7cc7d905f74a187d79f9.woff2",
+    "static/media/NEXT ART_Heavy.woff2": "/speaky/static/media/NEXT ART_Heavy.4590c37984369cb18868.woff2",
+    "index.html": "/speaky/index.html",
+    "static/media/radio-checked.svg": "/speaky/static/media/radio-checked.05a94af4a92c37a1206e.svg",
+    "static/media/arrow-right.svg": "/speaky/static/media/arrow-right.8615c1ff239bef24e298.svg",
+    "static/media/list.svg": "/speaky/static/media/list.dcb84ebc51738da11b56.svg",
+    "static/media/radio-unchecked.svg": "/speaky/static/media/radio-unchecked.20bb07efd9d9c471bbad.svg",
+    "main.2f15ceaa.css.map": "/speaky/static/css/main.2f15ceaa.css.map",
+    "main.bfcd4f79.js.map": "/speaky/static/js/main.bfcd4f79.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f15ceaa.css",
+    "static/js/main.bfcd4f79.js"
+  ]
+}

@@ -1,0 +1,16 @@
+<svg width="140" height="140" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_6563_2169)">
+<rect width="140" height="140" transform="matrix(-1 0 0 1 140 0)" fill="#FDE9D4"/>
+<circle r="19.9598" transform="matrix(-1 0 0 1 120.04 144)" fill="#FE7167"/>
+<circle r="19.9598" transform="matrix(-1 0 0 1 86.3048 144)" fill="#FE7167"/>
+<circle r="19.9598" transform="matrix(-1 0 0 1 52.5704 144)" fill="#FE7167"/>
+<circle r="19.9598" transform="matrix(-1 0 0 1 19.9591 144)" fill="#FE7167"/>
+<path d="M140 140C140 121.435 132.625 103.63 119.497 90.5025C106.37 77.375 88.5652 70 70 70C51.4349 70 33.6301 77.375 20.5025 90.5025C7.37498 103.63 2.80326e-06 121.435 0 140H12.8916C12.8916 124.854 18.9083 110.328 29.6182 99.6182C40.3281 88.9083 54.8539 82.8916 70 82.8916C85.1461 82.8916 99.6719 88.9083 110.382 99.6182C121.092 110.328 127.108 124.854 127.108 140H140Z" fill="#FE7167"/>
+<circle r="20" transform="matrix(-1 0 0 1 70 34)" fill="#FC8B4C"/>
+</g>
+<defs>
+<clipPath id="clip0_6563_2169">
+<rect width="140" height="140" fill="white" transform="matrix(-1 0 0 1 140 0)"/>
+</clipPath>
+</defs>
+</svg>

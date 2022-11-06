@@ -1,0 +1,5 @@
+<svg width="140" height="140" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 0L0 140L140 140V100C140 44.7715 95.2285 0 40 0L0 0Z" fill="#FC8B4C"/>
+<circle r="20" transform="matrix(0 1 1 0 44 90)" fill="black"/>
+<circle r="20" transform="matrix(0 1 1 0 64 90)" fill="#FDE9D4"/>
+</svg>

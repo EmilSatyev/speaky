@@ -1,0 +1,8 @@
+<svg width="140" height="140" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="140" height="140" transform="matrix(1 0 0 -1 0 140)" fill="#FE7167"/>
+<path d="M70 45L40 95H100L70 45Z" fill="#FDE9D4"/>
+<rect width="26" height="45" transform="matrix(1 0 0 -1 57 140)" fill="black"/>
+<circle r="10" transform="matrix(1 0 0 -1 70 20)" fill="black"/>
+<circle r="10" transform="matrix(1 0 0 -1 100 20)" fill="black"/>
+<circle r="10" transform="matrix(1 0 0 -1 40 20)" fill="black"/>
+</svg>
