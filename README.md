@@ -1,11 +1,8 @@
 # Школа иностранных языков
 
-### [https://bike-rent-app-zeta.vercel.app/](bike-rent-app-zeta.vercel.app)
+### [emilsatyev.github.io/speaky/](https://emilsatyev.github.io/speaky/)
 
-- NodeJS
-- MongoDB, Mongoose
-- Аутентификация JWT
 
 - React
 - SCSS, адаптивная верстка
-- Ant Design
+- Material UI
